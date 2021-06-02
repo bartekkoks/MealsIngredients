@@ -11,4 +11,7 @@ public interface RecipeRepository extends CrudRepository<Recipe,Long> {
 
     @Query("SELECT e FROM Ingredient e WHERE e.recipe.id = (:id)")
     List<Ingredient> findIngredientByRecipeId(long id);
+
+    @Query("SELECT e FROM Ingredient e")
+    List<Ingredient> findIngredients();
 }

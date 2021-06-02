@@ -7,13 +7,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import javax.persistence.TypedQuery;
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.Set;
 
 
 @SpringBootApplication
